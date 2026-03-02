@@ -1,0 +1,38 @@
+@import "tailwindcss";
+
+@theme {
+  --color-industrial-black: #080808;
+  --color-industrial-orange: #FF4500;
+  --color-industrial-silver: #C0C0C0;
+  
+  --font-display: "Oswald", sans-serif;
+  --font-sans: "Inter", sans-serif;
+}
+
+@layer base {
+  body {
+    @apply bg-industrial-black text-white font-sans selection:bg-industrial-orange selection:text-white;
+  }
+  
+  h1, h2, h3 {
+    @apply font-display font-black italic uppercase tracking-tighter;
+  }
+}
+
+@keyframes marquee {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+.animate-marquee {
+  display: flex;
+  animation: marquee 20s linear infinite;
+}
+
+.grid-line {
+  @apply border-white/10;
+}
+
+.bento-card {
+  @apply border border-white/10 p-6 hover:border-industrial-orange/50 transition-colors duration-300 bg-white/5;
+}
