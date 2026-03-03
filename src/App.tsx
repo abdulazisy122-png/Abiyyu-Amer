@@ -73,12 +73,12 @@ export default function App() {
           >
             <h1 className="text-6xl md:text-[12vw] leading-[0.85] mb-4">
               ABIYYU AMEERI <br />
-              <span className="text-industrial-orange">FAIZ / SYSTEMS</span>
+              <span className="text-industrial-orange">FAIZ / NYONG</span>
             </h1>
             <div className="flex flex-wrap gap-4 items-center mt-8">
-              <span className="px-4 py-2 border border-white/20 font-mono text-xs uppercase tracking-widest bg-white/5">Full-Stack Engineer</span>
+              <span className="px-4 py-2 border border-white/20 font-mono text-xs uppercase tracking-widest bg-white/5">Full-Stack Intelligent</span>
               <span className="px-4 py-2 border border-white/20 font-mono text-xs uppercase tracking-widest bg-white/5">Akademi Militer</span>
-              <span className="px-4 py-2 border border-white/20 font-mono text-xs uppercase tracking-widest bg-white/5">High-Octane Execution</span>
+              <span className="px-4 py-2 border border-white/20 font-mono text-xs uppercase tracking-widest bg-white/5">High-Tactical Execution</span>
             </div>
           </motion.div>
           
@@ -125,7 +125,7 @@ export default function App() {
       {/* Projects Bento Grid */}
       <section className="py-20 px-6 md:px-12 border-b border-white/10 bg-white/[0.02]">
         <div className="max-w-7xl mx-auto">
-          <h2 className="text-4xl mb-12">Project Showcase // 01-04</h2>
+          <h2 className="text-4xl mb-12">Operasi Umum // 01-04</h2>
           <div className="grid grid-cols-1 md:grid-cols-4 gap-4">
             {/* Project 1 - Large */}
             <motion.div whileHover={{ scale: 1.01 }} className="md:col-span-2 md:row-span-2 bento-card flex flex-col justify-between min-h-[400px]">
@@ -194,13 +194,13 @@ export default function App() {
       {/* Experience Grid */}
       <section className="py-20 px-6 md:px-12 border-b border-white/10">
         <div className="max-w-7xl mx-auto">
-          <h2 className="text-4xl mb-12">Experience Log</h2>
+          <h2 className="text-4xl mb-12">Riwayat Operasi</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-px bg-white/10 border border-white/10">
             {[
-              { year: '2023-2025', role: 'Lead Systems Architect', company: 'TechCommand Solutions', desc: 'Orchestrating high-load infrastructures and defining deployment standards.' },
-              { year: '2021-2023', role: 'Senior Full-Stack Dev', company: 'Nexus Engineering', desc: 'Developed core banking modules with zero-downtime requirements.' },
-              { year: '2019-2021', role: 'Software Engineer', company: 'Delta Systems', desc: 'Built real-time tracking systems for logistics and supply chain.' },
-              { year: '2018-2019', role: 'Junior Developer', company: 'InnoTech', desc: 'Focused on UI performance and frontend optimization.' },
+              { year: '2025', role: 'Komandan Jenderal ok25', company: 'Badan Intelijen Negara', desc: 'Classified.' },
+              { year: '2021-2023', role: 'BALAKPUS 312/kiro', company: 'Kiro Gaming Cafe', desc: 'Ngebantai pasung main ps ampe 6-0.' },
+              { year: '2019-2021', role: 'CLASSIFIED', company: 'TNI-AD', desc: 'Classified.' },
+              { year: '2018-2019', role: 'Siswa Asipa', company: 'Yayasan pa dokter', desc: 'Jadi murid biasa.' },
             ].map((exp, i) => (
               <div key={i} className="bg-industrial-black p-8 hover:bg-white/[0.03] transition-colors">
                 <div className="text-industrial-orange font-mono text-xs mb-2">{exp.year}</div>
