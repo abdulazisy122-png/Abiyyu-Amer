@@ -94,29 +94,28 @@ export default function App() {
           <div>
             <h2 className="text-4xl mb-6 flex items-center gap-3">
               <ShieldCheck className="text-industrial-orange" /> 
-              The Philosophy
+              SHORT DESKRIPTION (itulah pokonya)
             </h2>
             <p className="text-lg text-industrial-silver leading-relaxed font-light">
               Born into a military family as the son of <span className="text-white font-bold italic">Bapak Eko</span>, 
-              discipline and precision are hardcoded into my DNA. My approach to engineering is defined by 
-              <span className="text-white font-bold italic"> "High-Octane Execution"</span>—a relentless focus on 
-              performance, reliability, and speed. Whether it's architecting scalable backends or 
-              crafting brutalist interfaces, I build products that don't just work, but dominate their environment.
+              discipline and precision are hardcoded into my DNA. My approach to Military is defined by 
+              <span className="text-white font-bold italic"> "High Tactical Execution"</span>—a relentless focus on 
+              performance, Tactical, and speed. Smartest Intelligent over MI6, Maybe like Agent  Ethan Hunt.
             </p>
           </div>
           <div className="grid grid-cols-2 gap-4">
             <div className="bento-card flex flex-col justify-between h-40">
               <Activity className="text-industrial-orange" />
               <div>
-                <div className="text-2xl font-display italic">99.9%</div>
-                <div className="text-[10px] uppercase font-mono opacity-50">Uptime Focus</div>
+                <div className="text-2xl font-display italic">1000%</div>
+                <div className="text-[10px] uppercase font-mono opacity-50">WINRATE ASBOSCH</div>
               </div>
             </div>
             <div className="bento-card flex flex-col justify-between h-40">
               <Zap className="text-industrial-orange" />
               <div>
                 <div className="text-2xl font-display italic">&lt;100ms</div>
-                <div className="text-[10px] uppercase font-mono opacity-50">Latency Target</div>
+                <div className="text-[10px] uppercase font-mono opacity-50">Intel gacor</div>
               </div>
             </div>
           </div>
@@ -135,8 +134,8 @@ export default function App() {
                   <span className="text-xs font-mono text-industrial-orange">01 / CLOUD ARCHITECTURE</span>
                   <ExternalLink size={16} />
                 </div>
-                <h3 className="text-3xl mb-4">Iron Sentinel V2</h3>
-                <p className="text-sm text-industrial-silver mb-6">A distributed monitoring system for high-security environments. Built with Go and Kubernetes.</p>
+                <h3 className="text-3xl mb-4">OK25 / Lizard Operation</h3>
+                <p className="text-sm text-industrial-silver mb-6">Operasi Intelijen Super Rahasia dari Batalyon 312/kiro hideung yang menargetkan salah satu target intelijen berbahaya dalam pemerintahan rezim politik asipa, mulai dari perencanaan taktis, cyber dan operasi lapangan dapat dijalankan dengan mulus dan tak terdeteksi.</p>
               </div>
               <div className="flex gap-2">
                 <span className="px-2 py-1 bg-white/10 text-[10px] font-mono">GO</span>
